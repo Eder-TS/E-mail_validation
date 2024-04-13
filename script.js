@@ -1,6 +1,6 @@
 function EmailValidation(){
     let email = document.getElementById("email").value
-    const emailPattern = /^[a-z0-9]+@+[a-z0-9]+[.a-z]+$/
+    const emailPattern = /^[a-z0-9]+@+[a-z0-9]+[.a-z]+[^ ]+$/
 
     let itsValid = email.match(emailPattern)
 
